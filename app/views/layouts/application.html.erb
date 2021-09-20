@@ -10,17 +10,21 @@
   </head>
 
   <body>
-    
-    <header>
-      <nav class="gtco-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2 text-left">
-					<div id="gtco-logo"><a href="index.html">Verb<span>.</span></a></div>
-				</div>
-				<div class="col-xs-10 text-right ">
-					<ul>
-						<li class="has-dropdown">
+    <header class="border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href='/'>
+          <span>NUNONUNO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <div class="container">
+              <div class="row">
+   							
+   					<div class="col my-2">
 							<a href="category">Development</a>
 							<ul class="dropdown" style="display: none;">
 								<li><a href="#">Python</a></li>
@@ -29,17 +33,25 @@
 								<li><a href="#">Django</a></li>
 							</ul>
 						</li>
-
+					</div>
+					<div class="col my-2">
 						<li><a href="category">Business</a></li>
+					</div>
+					<div class="col my-2">
 						<li><a href="category">Travel</a></li>
+					</div>
+					<div class="col my-2">
 						<li><a href="category">Design</a></li>
+					</div>
+					<div class="col my-2">
 						<li><a href="category">Culture</a></li>
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</nav>
+					</div>
+					
+					</div>
+            </div>
+          </ul>
+        </div>
+      </nav>
     </header>
     <%= yield %>
   </body>
