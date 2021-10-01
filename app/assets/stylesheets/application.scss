@@ -23,14 +23,39 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
-  background: #e6e6e6;
+  background: transparent;
 }
 
 
 .main-visual{
   width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
-  background-image: url(images/img_1.jpg);
+  height: 400px; /* 高さ300px */
+  background-image: url('top.JPG');
   background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
-  background-position: center; /* 背景画像を中央に配置 */
+  background-position: center;
+
+}
+
+/*header*/
+header {
+  width: 90%; /* 横幅90% */
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .heading { /* headerタグ内のheadingクラスにのみ反映される */
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
