@@ -74,3 +74,41 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
     color: #000000;
 }
 
+
+
+
+/*footer*/
+
+.col-sm-4 {
+    width: 33.33333%;
+}
+
+
+
+/*footerの1番下*/
+
+
+footer .credit {
+    background: #222222;
+    margin-top: 40px;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer .credit p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.col-xs-12 {
+    width: 100%;
+}
+
+footer .credit p a {
+    color: #fff;
+}
