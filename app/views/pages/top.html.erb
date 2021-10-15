@@ -1,33 +1,32 @@
-<main>
-    <div class="conainer">
-        <div class="main-visual">
-            <div class="main-visual-content">
-            
-                <h1 class="main-visual-text">
-                  My <span style="font-family:futura-lt-w01-light,sans-serif">Portforio</span> page.
-                </h1>
+<div class="main-visual">
+    <div class="main-visual-content">
+      <h1 class="main-visual-text">
+          My <span style="font-family:futura-lt-w01-light,sans-serif">Portforio</span> page.
+      </h1>
                 
-            </div>
-        </div>
-        
-        <!--ポートフォリオの部分-->
-        <div class = "portofolio">
-            <h2 class="portfolio-heading">My Portforio</h2>    
-        <div class="item">
-          <img class="blog-image" src="">
-          <section class="text">
-            <h3>
-              <a href="#">
-                Hopeful lessons from<br>
-                the battle to save<br>
-                rainforests
-              </a>
-            </h3>
-            <p>June 19, 2017</p>
-            <span class="category">Nature</span>
-          </section>
-        </div>
-        </div>
-        
     </div>
-</main>
+</div>
+        
+<!--ポートフォリオの部分-->
+<main>
+      <section class="blog">
+        <h2 class="blog-heading">Recent Blogs</h2>
+
+        <div class="blog-box">
+          <div class="blog-item">
+            <%= image_tag('stareco.jpg', class: 'blog-image') %>
+            <section class="blog-text">
+              <h3 class="blog-text-heading">
+                <a href="single.html">
+                  Hopeful lessons from<br />
+                  the battle to save<br />
+                  rainforests
+                </a>
+              </h3>
+              <p class="blog-date">June 19, 2017</p>
+              <span class="category">Nature</span>
+            </section>
+          </div>
+        </div>      </section>
+      <div class="sidebar"></div>
+    </main>
