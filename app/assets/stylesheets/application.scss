@@ -112,16 +112,25 @@ main {
 .blog-image {
   height: 180px;
   border: 2px solid;
-  border-color: #031de2;
+  border-color: #f7f7f7;
 }
 
 .blog-text {
-  padding: 25px 0 0 30px;
+  padding: 5px 0 0 30px;
 }
 
-.blog-text-heading {
-  padding-bottom: 15px;
+
+
+.blog-text a{
+  color: black;
 }
+
+.blog-text p{
+  margin: 0 0 5px 0;
+}
+
+
+
 .blog-date {
   font-size: 12px;
   display: inline-block;
