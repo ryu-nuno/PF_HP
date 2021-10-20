@@ -54,6 +54,10 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
   margin: 0 auto;
 }
 
+.nav-list a{
+  color: #808080;
+}
+
 .nav-list-item {
   list-style: none;
   display: inline-block;
